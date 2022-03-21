@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* primary color */
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    /* natural */
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+    /* fontsize  */
+    --large-font-size: 45px;
+    --small-font-size: 12px;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(font/OpenSans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(font/Poppins/Poppins-Regular.ttf);
+}
+
+h1 {
+    font-family: opensans;
+    font-weight: 700;
+}
+
+p {
+    font-family: poppins;
+    font-weight: 100;
+}
+
+body {
+    padding: 2% 5%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>p {
+    color: var(--Light-Pink);
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: var(--Light-Pink);
+    border-style: solid;
+    padding: 8px .8rem;
+    font-size: var(--small-font-size);
+}
+
+.main {
+    padding-top: 19%;
+    text-align: center;
+}
+
+.main>h1 {
+    font-size: var(--large-font-size);
+    color: var(--Very-Dark-Cyan);
+}
+
+.main>p {
+    margin: .5rem 15rem;
+}
+
+.main>button {
+    padding: 15px 35px;
+    margin: .5rem;
+    border-radius: 20px;
+    outline: none;
+    border-style: none;
+    background-color: var(--Light-Pink);
+    color: white;
+    border-radius: 30px;
+    font-style: poppins;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px var(--Light-Pink);
+}
+
+
+/*================================= main2 ================================ */
+
+.main2 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.main2>img {
+    width: 60%;
+}
