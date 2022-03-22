@@ -37,15 +37,21 @@ p {
     font-weight: 100;
 }
 
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-margin {
+    margin-top: 10%;
+}
+
 body {
     padding: 2% 5%;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+header {}
 
 header>p {
     color: var(--Light-Pink);
@@ -58,7 +64,7 @@ header>p {
 }
 
 .main {
-    padding-top: 19%;
+    margin-top: 19%;
     text-align: center;
 }
 
@@ -91,9 +97,32 @@ header>p {
 
 .main2 {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 10%;
 }
 
 .main2>img {
     width: 60%;
+}
+
+.main3 {
+    margin-top: 10%;
+}
+
+.main3 img {
+    width: 20%;
+}
+
+.main3-holder2 {
+    margin-right: 20%;
+}
+
+.main3-holder1 {
+    margin-left: 20%;
+}
+
+
+/* grow together container */
+
+.main4 {
+    display: flex;
 }
